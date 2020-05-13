@@ -1,0 +1,7 @@
+# Accord
+
+Just a user-friendly C++ library for Discord, still needs work obviously! Ideally this should be a single-header library so a user can just copy and paste this into a project with no effort and just werk, so far that seems feasible. OpenSSL is the only requirement so far that we can't avoid and that just needs an install that includes headers, libs, and dlls, like this one https://kb.firedaemon.com/support/solutions/articles/4000121705.
+
+Of course the codebase doesn't exist as a single-header at this moment, but it's still feasible when combining all the deps together.
+
+Also, we should detach this from being a VS project, it's only a couple of files, a CMake would be trivial.
